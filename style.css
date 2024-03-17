@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Jost;
+    src: url(fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: poiret;
+    src: url(fonts/Jost\,Poiret_One/#bg);
+}
+#header-top{
+    background-color: black;
+}
+.first{
+    color: #E5BF4A !important;
+    text-decoration: none; 
+}
+.btn-1{
+    color: #E5BF4A !important;
+    border: 1px solid #E5BF4A;
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: black;
+}
+nav{
+    background-color: black;
+}
+li a{
+    color: white !important;
+    font-family: "Jost";
+}
+li a:hover{
+    transition: all .3s ease-out 0s;
+    text-transform: uppercase;
+    position: relative
+}
+@media screen and (max-width:700px) {
+    .icon{
+        display: none;
+    }
+    .h1{
+        width: 100% !important;
+        font-size: 50px !important;
+    }
+    .h2{
+        width: 300px !important;
+    }
+    .para-1{
+        width: auto !important;
+    }
+    .h2-3{
+        width: auto !important;
+    }
+    body {
+        overflow-x: hidden;
+      }
+    
+      .sub.container {
+        flex-direction: column; 
+        align-items: center; 
+      }
+    
+      .para, .images {
+        width: 100%; 
+      }
+}
+@media screen and (max-width:900px) {
+    .btn-1{
+        display: none;
+    }
+    .h2{
+        width: 400px !important;
+    }
+}
+@media screen and (min-width:1px) and (max-width:1400px) {
+    nav{
+        /* background-color: black; */
+        color: white;
+    }
+}
+#bg{
+    background-image: url(img/bg.webp);
+    background-size: cover;
+    /* background-position: center; */
+    height: 80vh;
+    
+}
+.h1{
+    color: white;
+    font-family: "poiret";
+    font-weight: 400 !important;
+    font-size: 58px;
+    width: 400px;
+    /* border: 1px solid red; */
+}
+.btn-2{
+    background: #E5BF4A;
+    border: 1px solid #2A2A2A;
+    color: #0A0A0A !important;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 22px 41px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 5px;
+}
+.two{
+    color: #0A0A0A !important;
+    text-decoration: none;
+}
+#main{
+    background-color: #0A0A0A;
+}
+.h2{
+    text-align: center !important;
+    color: white;
+    /* border: 1px solid red; */
+    width: 420px !important;
+    font-family: "poiret";
+}
+.h2-2{
+    color: #E5BF4A;
+    margin-top: -20px;
+}
+.h2-3{
+    color: #E5BF4A;
+    font-size: 24px;
+    padding-left: 0px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    width: 507px;
+    /* border: 1px solid red; */
+}
+.para-1{
+    /* border: 1px solid red; */
+    width: 600px;
+    color: wheat;
+}
+@media screen and (max-width:1200px) {
+    .sub{
+        flex-direction: column-reverse;
+    }
+}
+.images img {
+    max-width: 99%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.para {
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto; 
+}
+.card-1 img{
+    width: 30%;
+}
