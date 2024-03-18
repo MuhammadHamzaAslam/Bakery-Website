@@ -12,6 +12,8 @@
 }
 #header-top{
     background-color: black;
+    /* z-index: 1; */
+    position: relative;
 }
 .first{
     color: #E5BF4A !important;
@@ -28,6 +30,11 @@
 }
 .navy{
     background-color: black;
+    /* position: absolute !important; */
+    /* position: fixed; */
+    /* z-index: 1 !important; */
+    width: 100%;
+    /* top: 1; */
 }
 li a{
     color: white !important;
@@ -189,15 +196,18 @@ ul{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
+    height: auto;
 }
 .first-2{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
+    height: auto;
 }
 .first-3{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    height: auto;
     /* border-right: 1px solid gray; */
 }
 .insta{
@@ -214,6 +224,43 @@ ul{
     /* align-self: center !important; */
     /* text-align: center !important; */
 }
-.border{
+.border12{
     border-bottom: 1px solid gray !important;
+}
+h4{
+    font-weight: 400;
+    color: #E5BF4A !important;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn-121{
+    color: white !important;
+    border: 1px solid #fff;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: black;
+
+}
+.btn-121:hover{
+    color: #E5BF4A !important;
+    border: 1px solid #E5BF4A;
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: black;
+    /* align-self: center !important; */
+    /* text-align: center !important; */
+}
+.footer{
+    border-bottom: 1px solid gray;
+}
+.heart{
+    color: #E5BF4A;
+}
+.copy{
+    height: 5vh;
 }
